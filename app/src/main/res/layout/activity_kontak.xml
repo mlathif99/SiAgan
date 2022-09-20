@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/no_cr"
+    tools:context=".Kontak">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="683dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="80dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/sitirta512" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="25dp"
+            android:text="Contact PDAM \n Tirta Moedal Semarang"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="75dp"
+            android:paddingTop="25dp"
+            android:src="@drawable/logopdamm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="463dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_address"
+                android:onClick="address"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/map" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Address "
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_callcenter"
+                android:onClick="call_center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/callcenter"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call Center"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_whatsapp"
+            android:onClick="whatsapp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/whatsapp"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="318dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_mail"
+                android:onClick="email"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/email"></ImageView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="E-Mail "
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_facebook"
+                android:onClick="facebook"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/_instagram"
+                android:onClick="instagram"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/instagram"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instagram"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="177dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/_twitter"
+                android:onClick="twitter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/twitter"></ImageView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_website"
+                android:onClick="website"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/website"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="-20dp"
+        android:text="© 2022 Perumda Air Minum Tirta Moedal Kota Semarang "
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
